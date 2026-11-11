@@ -404,7 +404,7 @@ The four places' fee rules are kept in a fixed table, `FEE_RULES[PLACE_TYPE_COUN
 | Rule | Mall | Supermarket | Office | Event |
 |------|------|-------------|--------|-------|
 | freeMinutes | 15 | 30 | 10 | 0 |
-| firstBlockHours | 2 | 1 | 1 | 4 |
+| firstBlockHours | 2 | 1 | 1 | 3 |
 | firstBlockFee | 20 / 40 | 10 / 30 | 10 / 30 | 30 / 60 |
 | extraHourFee | 10 / 20 | 20 / 50 | 15 / 40 | 30 / 60 |
 | dailyMaxFee | 80 / 200 | 150 / 400 | 100 / 300 | 300 / 600 |
@@ -414,7 +414,7 @@ The four places' fee rules are kept in a fixed table, `FEE_RULES[PLACE_TYPE_COUN
 - **Mall:** cheap first 2 hours and a low daily maximum, so people stay and shop longer.
 - **Supermarket:** 30 free minutes covers a normal shopping trip; after that the price rises fast so spots are free for the next shopper.
 - **Office:** a fair rate for visitors; vehicles parked more than 10 hours are flagged.
-- **Event:** one flat charge covers 4 hours of the event; staying longer costs a lot, so the parking is not misused.
+- **Event:** one flat charge covers 3 hours of the event; staying longer costs a lot, so the parking is not misused.
 
 #### How the fee is worked out
 
@@ -432,7 +432,7 @@ The four places' fee rules are kept in a fixed table, `FEE_RULES[PLACE_TYPE_COUN
 | Mall | 3 h 20 min | ₹40 (first 2 h) + 2 extra hours × ₹20 | ₹80 |
 | Supermarket | 3 h 20 min | ₹30 (first 1 h) + 3 extra hours × ₹50 = ₹180 | ₹180 |
 | Supermarket | 10 hours | ₹30 + 9 × ₹50 = ₹480, but daily max is ₹400 | ₹400 |
-| Event | 5 hours | ₹60 (first 4 h) + 1 extra hour × ₹60 | ₹120 |
+| Event | 5 hours | ₹60 (first 3 h) + 2 extra hours × ₹60 | ₹180 |
 | Mall | 1 day 1 hour | 1 full day × ₹200 + ₹40 (leftover 1 h) | ₹240 |
 
 ---

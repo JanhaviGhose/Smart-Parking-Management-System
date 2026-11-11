@@ -20,8 +20,8 @@ static const FeeRule_t FEE_RULES[PLACE_TYPE_COUNT] =
     { 30, 1, { 10, 30 }, { 20, 50 }, { 150, 400 },  4 },
     /* Office: fair visitor rate, flag all-day parking */
     { 10, 1, { 10, 30 }, { 15, 40 }, { 100, 300 }, 10 },
-    /* Event / pandal: flat charge for the event, costly after */
-    {  0, 4, { 30, 60 }, { 30, 60 }, { 300, 600 },  6 }
+    /* Event / pandal: flat charge for the first 3 hours, costly after */
+    {  0, 3, { 30, 60 }, { 30, 60 }, { 300, 600 },  6 }
 };
 
 static bool isValidPlace(PlaceType_t placeType)

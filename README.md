@@ -26,7 +26,7 @@ A special feature is that **the fee rules depend on the type of place**, so the 
 | Rule (2W / 4W) | Mall | Supermarket | Office | Event / Pandal |
 |------|------|-------------|--------|-------|
 | Free time | 15 min | 30 min | 10 min | none |
-| First charge covers | 2 hours | 1 hour | 1 hour | 4 hours |
+| First charge covers | 2 hours | 1 hour | 1 hour | 3 hours |
 | First charge | ₹20 / ₹40 | ₹10 / ₹30 | ₹10 / ₹30 | ₹30 / ₹60 |
 | Each extra hour (or part) | ₹10 / ₹20 | ₹20 / ₹50 | ₹15 / ₹40 | ₹30 / ₹60 |
 | Maximum per day | ₹80 / ₹200 | ₹150 / ₹400 | ₹100 / ₹300 | ₹300 / ₹600 |
