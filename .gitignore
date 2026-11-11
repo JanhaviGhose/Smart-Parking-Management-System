@@ -1,0 +1,21 @@
+# Build output
+build/
+*.o
+*.d
+
+# Data created while running the program (only sample data is committed)
+data/settings.txt
+data/slots.txt
+data/history.txt
+data/slots_damaged.txt
+data/*.tmp
+
+# Temporary files created by unit tests
+tests/tmp_*
+
+# Editor / OS files
+.vscode/
+*.swp
+*~
+.DS_Store
+core
