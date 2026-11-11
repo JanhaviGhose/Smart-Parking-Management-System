@@ -298,3 +298,17 @@ They include **positive** tests (correct input), **negative** tests (wrong input
 ## 17. License
 
 MIT License — see [`LICENSE`](LICENSE).
+
+## 18. Screenshots
+
+**All 42 unit tests passing (`make test`):**
+
+![Tests passing](docs/screenshots/tests_passed.png)
+
+**Vehicle entry from the main menu (`make run`):**
+
+![Vehicle entry](docs/screenshots/vehicle_entry.png)
+
+**Spot status after the vehicle entered:**
+
+![Spot status](docs/screenshots/spot_status.png)
