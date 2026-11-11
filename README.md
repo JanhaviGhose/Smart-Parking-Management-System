@@ -9,9 +9,8 @@ A menu-driven C program for a paid parking lot. It gives each vehicle an empty s
 | Student name | Janhavi Ghose |
 | MIS | 612509022 |
 | Branch | Instrumentation & Control Engineering |
-| Division / batch | Automative Embedded Batch 1 |
-| GitHub repository | [https://github.com/<username>/smart-parking-management-system] |
-
+| Division / batch | Automotive Embedded Batch 1 |
+| GitHub repository | https://github.com/JanhaviGhose/Smart-Parking-Management-System |
 ---
 
 ## 1. Problem Statement
@@ -187,8 +186,8 @@ sudo apt install build-essential git libgtest-dev cmake
 ## 11. Build, Run and Test
 
 ```bash
-git clone https://github.com/<username>/smart-parking-management-system.git
-cd smart-parking-management-system
+git clone https://github.com/JanhaviGhose/Smart-Parking-Management-System.git
+cd Smart-Parking-Management-System
 
 make all     # build the program  -> build/smart_parking
 make run     # build and run the program

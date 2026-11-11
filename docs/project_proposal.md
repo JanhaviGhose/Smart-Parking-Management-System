@@ -19,16 +19,16 @@ Automotive / Transportation
 | Field                  | Details                                                    |
 |------------------------|------------------------------------------------------------|
 | Student name           | Janhavi Ghose                                              |
-| Roll number / MIS      | [Enter roll number]                                        |
-| Division / batch       | [Enter division / batch]                                   |
+| Roll number / MIS      | 612509022                                        |
+| Division / batch       | Automotive Embedded Batch 1                                   |
 | Repository name        | smart-parking-management-system                            |
-| GitHub repository link | [https://github.com/<username>/smart-parking-management-system] |
+| GitHub repository link | https://github.com/JanhaviGhose/Smart-Parking-Management-System |
 
 ### 1.4 Individual Project Declaration
 
 I confirm that this project is my individual work. I understand the design, source code, unit tests, Makefile and documentation in this repository, and I am ready to explain or change any part during evaluation.
 
-Student signature or acknowledgement: [Enter acknowledgement]
+Student signature or acknowledgement: Janhavi Ghose
 
 ---
 
